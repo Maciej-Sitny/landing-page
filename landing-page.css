@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: roboto, sans-serif;
+  }
+  .hero {
+    background: #1f2937;
+    color: white;
+    display: flex;
+  }
+   
+  .hero-logo {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    color: #f9faf8;
+  }
+   
+  .hero-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+   
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+   
+  .first {
+    background: #1f2937;
+    display: flex;
+    padding: 40px 25vw 40px 25vw;
+    height: 55vh;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .first-text {
+    flex: 0 0 30vw;
+  }
+   
+  .first-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+  }
+   
+  .first-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+   
+  .btn-first {
+    background: #3882f6;
+    color: #f9faf8;
+    border: 0em;
+    border-radius: 5px;
+    height: 33px;
+    width: 100px;
+    font-size: 1.7vh;
+  }
+   
+  .first-img {
+    background: gray;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 400px;
+  }
+   
+  .second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    gap: 40px;
+    margin-bottom: 10vh;
+  }
+   
+  .info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+  }
+   
+  .second-piles {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+   
+  .second-piles-pile {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(151, 143, 143);
+    text-align: center;
+    gap: 15px;
+  }
+   
+  .second-piles-pile-border {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+  }
+   
+  .third {
+    background: #e5e7eb;
+    padding: 10vh 25vw 8vh 25vw;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .third-quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+  }
+   
+  .third-subtext {
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: 600;
+  }
+   
+  .fourth {
+    background: #3882f6;
+    margin: 10vh 20vw 10vh 20vw;
+    border-radius: 10px;
+    color: white;
+    height: 17vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    gap: 30px;
+  }
+   
+  .fourth-title {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+  }
+   
+  .fourth-subtext {
+    font-size: 20px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+  }
+   
+  .btn-fourth {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+  }
+   
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    height: 7vh;
+  }
+   
+   
+  
